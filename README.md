@@ -45,8 +45,8 @@ les performances de classification
 Pour faire tourner ces programmes il faut aussi télécharger le modèle complet de (poids+modèle) neurones utilisés. Ils sont disponibles ici:
 [Modèle à utiliser (120 races)](https://drive.google.com/open?id=1h9ZCmRurpXnjzICHjfRq_oBT1u2edNHa)
 
-* Le fichier 'classes_encoding_120' servent de table de correspondance entre un id et le nom d'une race
+* Le fichier 'classes_encoding_120' sert de table de correspondance entre un id et le nom d'une race
 
 *Autres*:
-* [Presentation](Presentation.pdf): Support de présentation en fin de projet
+* [Dog Breed Recognition.pptx](Dog Breed Recognition): Support de présentation en fin de projet
 
