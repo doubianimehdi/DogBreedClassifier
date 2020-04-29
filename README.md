@@ -35,27 +35,7 @@ Contient plus de 20 000 photos de chiens, réparties sur 120 races différentes.
 : Approche classique avec la méthode SIFT pour une classification sur 2, 3 ou 5 races
 * [4_1_CNN_from_scratch](4_1_CNN_from_scratch.ipynb): Approche deep learning avec un réseau neuronal convolutif (CNN) sans pré-entraînement
 * [4_3_Transfer_learning_VGG16](4_2_Transfer_learning_VGG16.ipynb), [4_3_Transfer_learning_VGG16_Data_Aug](4_3_Transfer_learning_VGG16_Data_Aug.ipynb) , [5_1_Transfer_learning_InceptionV3](5_1_Transfer_learning_InceptionV3.ipynb),
-[5_2_Transfer_learning_InceptionV3_Data_Aug](5_2_Transfer_learning_InceptionV3_Data_Aug.ipynb),
-
-[5_3_Transfer_learning_InceptionV3_Data_Aug_FT](5_3_Transfer_learning_InceptionV3_Data_Aug_FT.ipynb),
-
-[6_1_Transfer_learning_Resnet50v2](6_1_Transfer_learning_Resnet50v2.ipynb),
-
-[6_2_Transfer_learning_Resnet50v2_Data_Aug](6_2_Transfer_learning_Resnet50v2_Data_Aug.ipynb),
-
-[6_3_Transfer_learning_Resnet50v2_Data_Aug_FT](6_3_Transfer_learning_Resnet50v2_Data_Aug_FT.ipynb),
-
-[7_1_Transfer_learning_InceptionV4](7_1_Transfer_learning_InceptionV4.ipynb),
-
-[7_2_Transfer_learning_InceptionV4_Data_Aug](7_2_Transfer_learning_InceptionV4_Data_Aug.ipynb),
-
-[7_3_Transfer_learning_InceptionV4_Data_Aug_FT](7_3_Transfer_learning_InceptionV4_Data_Aug_FT.ipynb),
-
-[8_1_Transfer_learning_Xception](8_1_Transfer_learning_Xception.ipynb),
-
-[8_2_Transfer_learning_Xception_Data_Aug](8_2_Transfer_learning_Xception_Data_Aug.ipynb),
-
-[8_3_Transfer_learning_Xception_Data_Aug_FT](8_3_Transfer_learning_Xception_Data_Aug_FT.ipynb) : Utilisation d'un réseau pré-entraîné (transfer learning) pour améliorer les performances de classification.
+[5_2_Transfer_learning_InceptionV3_Data_Aug](5_2_Transfer_learning_InceptionV3_Data_Aug.ipynb),[5_3_Transfer_learning_InceptionV3_Data_Aug_FT](5_3_Transfer_learning_InceptionV3_Data_Aug_FT.ipynb),[6_1_Transfer_learning_Resnet50v2](6_1_Transfer_learning_Resnet50v2.ipynb),[6_2_Transfer_learning_Resnet50v2_Data_Aug](6_2_Transfer_learning_Resnet50v2_Data_Aug.ipynb),[6_3_Transfer_learning_Resnet50v2_Data_Aug_FT](6_3_Transfer_learning_Resnet50v2_Data_Aug_FT.ipynb),[7_1_Transfer_learning_InceptionV4](7_1_Transfer_learning_InceptionV4.ipynb),[7_2_Transfer_learning_InceptionV4_Data_Aug](7_2_Transfer_learning_InceptionV4_Data_Aug.ipynb),[7_3_Transfer_learning_InceptionV4_Data_Aug_FT](7_3_Transfer_learning_InceptionV4_Data_Aug_FT.ipynb),[8_1_Transfer_learning_Xception](8_1_Transfer_learning_Xception.ipynb),[8_2_Transfer_learning_Xception_Data_Aug](8_2_Transfer_learning_Xception_Data_Aug.ipynb),[8_3_Transfer_learning_Xception_Data_Aug_FT](8_3_Transfer_learning_Xception_Data_Aug_FT.ipynb) : Utilisation d'un réseau pré-entraîné (transfer learning) pour améliorer les performances de classification.
 
 *Code*:
 * [classify_120](classify_120.py): Programme de classification parmi 120 races
