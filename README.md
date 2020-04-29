@@ -48,5 +48,5 @@ Pour faire tourner ces programmes il faut aussi télécharger le modèle complet
 * Le fichier 'classes_encoding_120' sert de table de correspondance entre un id et le nom d'une race
 
 *Autres*:
-* [Dog Breed Recognition]("Dog Breed Recognition.pdf"): Support de présentation en fin de projet
+* [Dog Breed Recognition]('Dog Breed Recognition.pdf'): Support de présentation en fin de projet
 
