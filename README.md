@@ -1,4 +1,4 @@
-# DogBreedClassifier
+# Description du contexte du projet
 Votre mission
 L'association vous demande de réaliser un algorithme de détection de la race du chien sur une photo, afin d'accélérer leur travail d’indexation.
 
