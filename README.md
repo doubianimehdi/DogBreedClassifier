@@ -14,3 +14,6 @@ Concernant le transfer learning, votre ami vous précise que :
 
 Une première chose obligatoire est de réentraîner les dernières couches pour prédire les classes qui vous intéressent seulement.
 Il est également possible d’adapter la structure (supprimer certaines couches, par exemple) ou de réentraîner le modèle avec un très faible learning rate pour ajuster les poids à votre problème (plus long) et optimiser les performances.
+
+
+[Model à utiliser](https://drive.google.com/open?id=1h9ZCmRurpXnjzICHjfRq_oBT1u2edNHa)
