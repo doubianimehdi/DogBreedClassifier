@@ -3,3 +3,5 @@ keras
 altair
 pandas
 numpy==1.19.0
+os
+typing
