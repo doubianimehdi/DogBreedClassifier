@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from keras.applications import (densenet, imagenet_utils, inception_v3,
-                                mobilenet_v2, nasnet, resnet, vgg19, xception, inception_resnet_v2, EfficientNetB0)
+                                mobilenet_v2, nasnet, resnet, vgg19, xception, inception_resnet_v2, efficientnet)
 from keras.preprocessing.image import img_to_array, load_img
 from PIL import Image
 
@@ -218,10 +218,10 @@ KERAS_APPLICATIONS: List[KerasApplication] = [
     ),
     KerasApplication(
         "EfficientNetB0",
-        keras_application=EfficientNetB0,
+        keras_application=efficientnet.EfficientNetB0,
         url="https://keras.io/applications/#EfficientNetB0",
-        preprocess_input_func=EfficientNetB0.preprocess_input,
-        decode_predictions_func=EfficientNetB0.decode_predictions,
+        preprocess_input_func=efficientnet.preprocess_input,
+        decode_predictions_func=efficientnet.decode_predictions,
     ),
 ]
 
