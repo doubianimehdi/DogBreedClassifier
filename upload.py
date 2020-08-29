@@ -11,7 +11,7 @@ import os
 from typing import Callable, List, NamedTuple, Tuple
 
 import altair as alt
-import keras.backend.tensorflow_backend as tb
+import tensorflow.keras.backend as tb
 import numpy as np
 import pandas as pd
 import streamlit as st
