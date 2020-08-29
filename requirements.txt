@@ -1,5 +1,5 @@
 streamlit
-keras
+tensorflow-cpu
 altair
 pandas
 numpy==1.19.0
