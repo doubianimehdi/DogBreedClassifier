@@ -204,9 +204,24 @@ KERAS_APPLICATIONS: List[KerasApplication] = [
         "Xception",
         keras_application=xception.Xception,
         input_shape=(299, 299),
-        url="https://keras.io/applications/#inceptionv3",
+        url="https://keras.io/applications/#Xception",
         preprocess_input_func=xception.preprocess_input,
         decode_predictions_func=xception.decode_predictions,
+    ),
+  KerasApplication(
+        "InceptionResNetV2",
+        keras_application=InceptionResNetV2.InceptionResNetV2,
+        input_shape=(299, 299),
+        url="https://keras.io/applications/#InceptionResNetV2",
+        preprocess_input_func=InceptionResNetV2.preprocess_input,
+        decode_predictions_func=InceptionResNetV2.decode_predictions,
+    ),
+    KerasApplication(
+        "EfficientNetB7",
+        keras_application=EfficientNetB7.EfficientNetB7,,
+        url="https://keras.io/applications/#EfficientNetB7",
+        preprocess_input_func=EfficientNetB7.preprocess_input,
+        decode_predictions_func=EfficientNetB7.decode_predictions,
     ),
 ]
 
