@@ -257,7 +257,9 @@ def main():
         format_func=lambda x: x.name,
     )
     st.sidebar.markdown(get_resources_markdown(selected_model))
+    st.set_option('deprecation.showfileUploaderEncoding', False)
     image = st.file_uploader("Upload a file for classification", IMAGE_TYPES)
+  # text_io = io.TextIOWrapper(image)
 
     if image:
         st.image(image, use_column_width=True)
