@@ -218,7 +218,7 @@ KERAS_APPLICATIONS: List[KerasApplication] = [
     ),
     KerasApplication(
         "EfficientNetB7",
-        keras_application=EfficientNetB7.EfficientNetB7,,
+        keras_application=EfficientNetB7.EfficientNetB7,
         url="https://keras.io/applications/#EfficientNetB7",
         preprocess_input_func=EfficientNetB7.preprocess_input,
         decode_predictions_func=EfficientNetB7.decode_predictions,
