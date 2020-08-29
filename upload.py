@@ -1,4 +1,4 @@
-"""This is an image classifier app that enables a user to
+"""This is a dog breed image classifier app that enables a user to
 
 - select a classifier model (in the sidebar),
 - upload an image (in the main area)
