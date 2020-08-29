@@ -210,11 +210,11 @@ KERAS_APPLICATIONS: List[KerasApplication] = [
     ),
   KerasApplication(
         "InceptionResNetV2",
-        keras_application=InceptionResNetV2.InceptionResNetV2,
+        keras_application=inception_resnet_v2.InceptionResNetV2,
         input_shape=(299, 299),
         url="https://keras.io/applications/#InceptionResNetV2",
-        preprocess_input_func=InceptionResNetV2.preprocess_input,
-        decode_predictions_func=InceptionResNetV2.decode_predictions,
+        preprocess_input_func=inception_resnet_v2.preprocess_input,
+        decode_predictions_func=inception_resnet_v2.decode_predictions,
     ),
     KerasApplication(
         "EfficientNetB7",
