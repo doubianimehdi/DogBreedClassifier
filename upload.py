@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from keras.applications import (densenet, imagenet_utils, inception_v3,
-                                mobilenet_v2, nasnet, resnet, vgg19, xception)
+                                mobilenet_v2, nasnet, resnet, vgg19, xception, inception_resnet_v2, EfficientNetB7)
 from keras.preprocessing.image import img_to_array, load_img
 from PIL import Image
 
@@ -262,7 +262,7 @@ def main():
     """Run this to run the application"""
     set_environ()
 
-    st.title("Image Classification with Keras and Tensorflow.")
+    st.title("Dog Breed Classification with Keras and Tensorflow.")
     st.info(__doc__)
     st.sidebar.subheader("Classifier")
     selected_model = st.sidebar.selectbox(
