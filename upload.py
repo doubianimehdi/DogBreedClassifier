@@ -223,6 +223,13 @@ KERAS_APPLICATIONS: List[KerasApplication] = [
         preprocess_input_func=efficientnet.preprocess_input,
         decode_predictions_func=efficientnet.decode_predictions,
     ),
+   KerasApplication(
+        "EfficientNetB7",
+        keras_application=efficientnet.EfficientNetB7,
+        url="https://keras.io/applications/#EfficientNetB7",
+        preprocess_input_func=efficientnet.preprocess_input,
+        decode_predictions_func=efficientnet.decode_predictions,
+    ),
 ]
 
 IMAGE_TYPES = ["png", "jpg"]
