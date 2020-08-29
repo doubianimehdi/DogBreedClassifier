@@ -23,7 +23,7 @@ from PIL import Image
 # Hack
 # I get a '_thread._local' object has no attribute 'value' error without this
 # See https://github.com/keras-team/keras/issues/13353#issuecomment-545459472
-tb._SYMBOLIC_SCOPE.value = True  # pylint: disable=protected-access
+#tb._SYMBOLIC_SCOPE.value = True  # pylint: disable=protected-access
 
 
 class KerasApplication(NamedTuple):
